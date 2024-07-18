@@ -1,0 +1,207 @@
+.abouts {
+    background-image: url("/assets/banner-bg.png") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .about-body {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 80%;
+  }
+  
+  .floating {
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px !important;
+    margin-top: 5px;
+  }
+  .floating img:hover {
+    transform: rotateY(180deg);
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 20px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+  
+  .floating img {
+    /* margin-left: 300px; */
+    width:35vw;
+    height: 60vh;
+    transition: transform 0.7s ease-in-out;
+    transform-style: preserve-3d;
+  }
+  
+  .wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .name h1 {
+    font-size: 65px !important;
+    font-weight: 600;
+    width:800px;
+    color: rgb(220, 217, 223);
+  }
+
+
+  @media only screen and (max-width:800px){
+   .about-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   }    
+   .name{
+    width: 90%;
+    margin-top: 20vw;
+
+   }
+   .name h1 {
+    font-size: 55px !important;
+    font-weight: 600;
+    width:500px;
+   }
+   .floating img {
+    width:45vw;
+    height: 50vh;
+   }
+   .floating {
+    margin-right: 80px !important;
+   }
+
+  }
+  @media only screen and (max-width:550px){
+    .about-body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+    }    
+    .name{
+     width: 90%;
+     margin-top: 40vw;
+ 
+    }
+    .name h1 {
+     font-size: 40px !important;
+     font-weight: 700;
+     width:390px !important;
+     margin-right: 50px !important;
+     /* margin-top: 90px; */
+    }
+    .floating img {
+     width:55vw;
+     height: 40vh;
+    }
+    .floating {
+     margin-right: 80px !important;
+     margin-bottom: 90px;
+    }
+ 
+   }
+
+  @media only screen and (max-width:480px){
+    .about-body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+    }    
+    .name{
+     width: 90%;
+     margin-top: 50vw;
+ 
+    }
+    .name h1 {
+     font-size: 35px !important;
+     font-weight: 700;
+     width:350px !important;
+     margin-right: 50px !important;
+     /* margin-top: 90px; */
+    }
+    .floating img {
+     width:55vw;
+     height: 40vh;
+    }
+    .floating {
+     margin-right: 80px !important;
+     margin-bottom: 90px;
+    }
+ 
+   }
+   @media only screen and (max-width:430px){
+    .about-body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+    }    
+    .name{
+     width: 90%;
+     margin-top: 50vw;
+ 
+    }
+    .name h1 {
+     font-size: 34px !important;
+     font-weight: 700;
+     width:340px !important;
+     margin-right: 50px !important;
+     /* margin-top: 90px; */
+    }
+    .floating img {
+     width:65vw;
+     height: 40vh;
+
+    }
+    .floating {
+     margin-right: 50px !important;
+     margin-bottom: 90px;
+    }
+ 
+   }
