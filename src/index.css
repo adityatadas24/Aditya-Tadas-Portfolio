@@ -51,6 +51,7 @@ html{
   font-family:cursive;
   font-weight: 900;
   margin-right: 120px;
+  font-size: 28px;
 }
 
 .nav-bar{
@@ -72,7 +73,7 @@ html{
 .a-name a {
   text-decoration: none;
   color: #fff;
-  font-size: 27px;
+  font-size: 23px;
   font-weight: 400;
   /* margin-left: 15px; */
 }

@@ -3,7 +3,7 @@
    margin-left: auto;
    margin-right: auto;
    width: 50%;
-   height: 80px;
+   height: 70px;
    padding: 10px;
    background-color: rgb(144, 89, 150);
    /* padding: 20px !important; */
@@ -13,7 +13,7 @@
 }
 
 .foot-icon{
-    padding: 8px;
+    padding: 5px;
     background-color: rgb(254, 254, 254);
     color: black;
     /* width: 50px !important; */
