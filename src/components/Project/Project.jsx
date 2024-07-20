@@ -17,8 +17,8 @@ const Project = () => {
         <h1
           className="pro-heading mb-5"
           style={{
-            marginTop: "10px",
-            fontSize: "60px",
+            marginTop: "20px",
+            fontSize: "55px",
             textAlign: "center",
             fontWeight: "700",
           }}
